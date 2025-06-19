@@ -1,0 +1,204 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffe0;
+}
+
+footer{
+background-color:#f4f4f4;
+font-size:0.1rem;
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+margin:0;
+height:2.5rem;
+}
+
+#nav-bar{
+position: fixed;
+display: flex;
+justify-content: space-evenly;
+top:0;
+width:100%;
+color: black;
+background-color: white;
+}
+
+.logo-head{
+display:flex;
+align-items: center;
+}
+
+#form h3{
+text-align:center;
+font-family:Raleyway, sans-serif;
+}
+
+#form{
+display:flex;
+justify-content:center;
+flex-direction: column;
+margin-bottom:1rem;
+}
+
+iframe{
+margin-bottom: 1.5rem;
+margin-top:1.5rem;
+height:20%;
+}
+
+a{
+margin-bottom:0;
+color: black;
+}
+
+#box-parent{
+margin-top:2rem;
+display: flex;
+justify-content: space-evenly;
+margin-bottom:5rem;
+}
+
+.box{
+border: 1px solid black;
+width:33.33%;
+}
+
+.box2,.box3{
+border-left: 0;
+}
+
+
+form{
+margin-bottom:7rem;
+}
+
+.nav-link{
+text-decoration:none;
+font-size:0.7rem;
+font-weight: 600;
+}
+
+.iicon{
+  font-size:2.6rem;
+  color:#347433;
+}
+
+.ss{
+  padding-left:1rem;
+  font-weight:600;
+}
+
+.logo-head{
+  display:flex;
+  justify-content: center;
+}
+.icon{
+  padding-left:2rem;
+}
+
+.icon-parent{
+color: #FFB347;
+font-size:2.6rem;
+height:25rem;
+display:flex;
+flex-direction:column;
+justify-content: space-evenly;
+}
+
+.icontext{
+text-align: left; 
+padding-left: 1rem;
+font-size:.1rem;
+color: black; 
+font-family:Raleyway, sans-serif;
+}
+
+.icon-head{
+display:flex;
+align-items: center;
+}
+
+.box p{
+text-align:center;
+font-weight:800;
+}
+
+.cost{
+font-size:1.6rem;
+text-align:center;
+}
+
+.name{
+margin-top:0;
+margin-bottom:0;
+height:5rem;
+background-color:#f4f4f4;
+display: flex;
+width:100%;
+justify-content:center;
+align-items:center;
+}
+
+hr{
+margin-top:0;
+}
+
+.box ul li{
+margin-left:0;
+font-size:.6rem;
+}
+
+#hh{
+margin-bottom:2rem;
+}
+
+.delivery-icon{
+display:flex;
+justify-content: space-evenly;
+color: #FFB347;
+font-size:1.5rem;
+margin-bottom:2.5rem;
+}
+
+.d-icon{
+display:flex;
+flex-direction: column;
+}
+
+.d-content p{
+margin-left:-0.5rem;
+color: black;
+font-size:.1rem;
+width:68%;
+font-family:Raleyway, sans-serif;
+display: block;
+text-align: center;
+padding-top:.9rem;
+margin-bottom:1rem;
+}
+
+.select{
+display: block;
+margin-left:35%;
+background-color:#FFBF00;
+border:0;
+margin-bottom:1rem;
+}
+
+#submit{
+display: block; 
+background-color:#FFBF00;
+border:0;
+font-weight:800;
+margin-top:1rem;
+width:25%;
+margin-left:37%;
+}
+
+#email{
+width:75%;
+margin-left:12%;
+}
